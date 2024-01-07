@@ -11,7 +11,8 @@ header {
     background-image: url('images/banner/banner1.png');
     width: 100%;
     height: 700px;
-    background-size: contain;
+    
+    background-repeat: no-repeat;
 }
 
 .section-title {
@@ -149,7 +150,16 @@ ul li {
     font-weight: 600;
     border: none;
 }
-.img-gradient{
+
+.img-gradient {
     margin: auto;
     padding: 64px;
+}
+
+/* footer section styles */
+footer {
+    background: #151414;
+    width: 100%;
+    height: 577px;
+    flex-shrink: 0;
 }
